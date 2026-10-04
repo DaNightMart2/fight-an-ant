@@ -1,13 +1,61 @@
 {
-    "candy_update_one": {
-        "title": "Candy Update 1",
-        "body": " Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1. Se agregó la Candy Update parte 1.",
-        "publish_date": "2026-??-??"
+    "candy_update_part_2": {
+        "title": "Candy Update Pt. 2",
+        "body": "Actualización principalmente de contenido. Se agregaron 4 hormigas, 8 armas, 1 secreto y un minijuego. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
     },
 
-    "release": {
-        "title": "Publicación",
-        "body": "Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego. Se publicó el juego.",
-        "publish_date": "2026-??-??"
+    "dialogue_fix_1": {
+        "title": "Arreglo de diálogo",
+        "body": "Actualización principalmente de arreglo de bugs. Se arregló un diálogo. Para ver esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
+    },
+
+    "candy_update_part_1": {
+        "title": "Candy Update Pt. 1",
+        "body": "Actualización principalmente de contenido. Se agregaron más títulos, tokens especiales, 25 tipos de hormigas, un segundo piso a la casa, 25 nuevas rondas, se rediseñó el lobby, se agregaron 2 mapas y se hizo el juego compatible con consolas y teléfonos móviles. Además, se arreglaron muchos bugs del juego. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
+    },
+
+    "more_modifiers": {
+        "title": "Más modificadores",
+        "body": "Actualización principalmente de contenido. Se agregaron 17 modificadores. Para ver esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
+    },
+
+    "modifiers": {
+        "title": "Modificadores",
+        "body": "Actualización principalmente de contenido. Se agregaron modificadores, una mecánica que permite customizar tus partidas para hacerlas más entretenidas. Actualmente hay 28 modificadores. También se arreglaron muchos bugs del juego y se mejoró la estabilidad del juego. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
+    },
+
+    "0.0.4": {
+        "title": "Actualización 0.0.4",
+        "body": "Actualización principalmente de arreglo de bugs. Se arreglaron bugs del juego y se balancearon las armas. Además, se agregó Upstairs. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-26"
+    },
+
+    "0.0.3": {
+        "title": "Actualización 0.0.3",
+        "body": "Actualización principalmente de arreglo de bugs. Se arreglaron bugs del juego, se arreglaron las interfaces (UI) y se balancearon las armas. Además, se agregó un personaje nuevo en la zona de batallas. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-22"
+    },
+
+    "0.0.2": {
+        "title": "Actualización 0.0.2",
+        "body": "Actualización principalmente de contenido. Se agregaron 5 rondas, 3 mejoras para la casa y se agregaron las armas de paintball, hiper-metal sword, the master rocket y the fabulous paintball. Se arregló también la ronda 42, y varios otros bugs. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-21"
+    },
+
+    "0.0.1": {
+        "title": "Actualización 0.0.1",
+        "body": "Actualización principalmente de contenido. Se agregaron 15 rondas, 10 hormigas y una arma. Además, se arreglaron varios bugs que ocurrían en el lobby y en la zona de batallas. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-20"
+    },
+
+    "beta_release": {
+        "title": "Beta release",
+        "body": "El estreno del juego en Roblox. El juego tiene actualmente 1 mapa, 20 hormigas, 30 oleadas, 18 armas, 10 mejoras para la casa, 6 mejoras para el jugador, un sistema de títulos y muchas cosas más. Para ver todo esto, entra al juego desde Roblox o desde el link que puedes encontrar en \"Sobre nosotros\".",
+        "publish_date": "2026-07-20"
     }
 }

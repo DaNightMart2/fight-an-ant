@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Fight an Ant",
+  title: "Fight An Ant",
   description: "La documentación oficial de Fight an Ant",
 };
 

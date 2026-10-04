@@ -3,7 +3,7 @@ export default function Header() {
         <div>
             <div className="page-header">
                 <h1>
-                    <a className="link" href="/">{"Fight an Ant"}</a>
+                    <a className="link" href="/">{"Fight An Ant"}</a>
                 </h1>
                 <h4>
                     <a className="link" href="/about-us">{"Sobre nosotros"}</a>
@@ -16,7 +16,7 @@ export default function Header() {
                 </h4>
             </div>
 
-            <p>{"La documentación oficial de Fight an Ant"}</p>
+            <p>{"La documentación oficial de Fight An Ant"}</p>
             <hr/>
         </div>
     );

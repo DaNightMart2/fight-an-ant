@@ -1,0 +1,198 @@
+:root {
+  --page: #400f4e;
+  --page-glow: #791c93;
+  --surface: #0e5771;
+  --surface-hover: #116b8b;
+  --border: #4c2a58;
+  --text: #edf2ff;
+  --muted: #aebbd3;
+  --accent: #8bd5ff;
+  --accent-hover: #c2e9ff;
+  --card-overlay: #0e4871;
+  --card-overlay-hover: #1670b1;
+  --card-hover-border: #1fb4eb;
+} 
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    circle at center, 
+    var(--page-glow) 0%,
+    var(--page) 100%
+  );
+  color: var(--text);
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+  margin: 0;
+  min-height: 100vh;
+  padding: 1.5rem;
+  transition: background 220ms ease, color 500ms ease;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.025em;
+}
+
+a {
+  color: var(--accent);
+  text-underline-offset: 0.18em;
+  transition: color 160ms ease;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+.link:link,
+.link:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+h1, p, a {
+  margin: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+  margin-left: 0.625rem;
+}
+
+.blur  {
+  mask-image: linear-gradient(to bottom, black, transparent);
+}
+
+.gray-text {
+  color: var(--muted);
+  margin: 5px;
+}
+
+.newline {
+  white-space: pre-line;
+}
+
+.hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-bottom: 0;
+}
+
+.update-card,
+.guide-card {
+  background: linear-gradient(145deg, var(--card-overlay), var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.2);
+  padding: 1.25rem;
+  width: 100%;
+  min-height: 400px;
+  transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.update-card:hover,
+.guide-card:hover {
+  background: linear-gradient(145deg, var(--card-overlay-hover), var(--surface-hover));
+  border-color: var(--card-hover-border);
+  transform: translateY(-4px);
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .update-header,
+  .guide-header {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+
+  .update-card,
+  .guide-card {
+    min-height: 0;
+  }
+}
+
+.update-excerpt,
+.guide-excerpt {
+  height: 270px;
+  overflow: hidden;
+}
+
+.update-list,
+.guide-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 300px));
+  gap: 20px;
+  justify-content: center;
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1600px) {
+  .update-list,
+  .guide-list {
+    grid-template-columns: repeat(5, 300px);
+    justify-content: start;
+  }
+}
+
+.update-fullscreen,
+.guide-fullscreen {
+  background: linear-gradient(145deg, var(--card-overlay), var(--surface));
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.2);
+  padding: 1.25rem;
+  width: min(700px, 100%);
+  margin: 10px auto 0;
+}
+
+.link:link,
+.link:visited {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--accent);
+}
+
+.invisible {
+  color: transparent;
+}
+
+.z1 {
+  position: relative;
+  z-index: 1;
+}
+
+.overlap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  transform: translateY(-100px)
+}

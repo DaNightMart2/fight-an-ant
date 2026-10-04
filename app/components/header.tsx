@@ -9,7 +9,7 @@ export default function Header() {
                     <a className="link" href="/about-us">{"Sobre nosotros"}</a>
                 </h4>
                 <h4>
-                    <a className="link" href="/guide">{"Guía"}</a>
+                    <a className="link" href="/guides">{"Guías"}</a>
                 </h4>
                 <h4>
                     <a className="link" href="/credits">{"Créditos"}</a>

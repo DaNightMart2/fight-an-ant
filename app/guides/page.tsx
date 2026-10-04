@@ -1,5 +1,5 @@
 import Header from "#/components/header";
-import GuideCard from "#/guide/components/guide-card";
+import GuideCard from "#/guides/components/guide-card";
 import guides from "@/public/data/guides.json";
 
 export default function Home() {

@@ -7,7 +7,7 @@ export default function GuideFullscreen({
 }
 ) {
   return (
-    <article className="update-fullscreen">
+    <article className="guide-fullscreen">
       <h3 className="text-center fullscren-title">{title}</h3>
       <p className="text-left newline">{body}</p>
     </article>

@@ -5,8 +5,8 @@
   --surface-hover: #116b8b;
   --border: #4c2a58;
   --text: #edf2ff;
-  --muted: #aebbd3;
-  --accent: #8bd5ff;
+  --muted: #d46ad4;
+  --accent: #8bb7ff;
   --accent-hover: #c2e9ff;
   --card-overlay: #0e4871;
   --card-overlay-hover: #1670b1;
@@ -30,18 +30,18 @@ body {
   margin: 0;
   min-height: 100vh;
   padding: 1.5rem;
-  transition: background 220ms ease, color 500ms ease;
+  transition: background 400ms ease, color 200ms ease;
 }
 
 h1, h2, h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Calibri", serif;
   letter-spacing: -0.025em;
 }
 
 a {
   color: var(--accent);
-  text-underline-offset: 0.18em;
-  transition: color 160ms ease;
+  text-underline-offset: 0.1em;
+  transition: color 50ms ease;
 }
 
 a:hover {
@@ -71,6 +71,10 @@ h1, p, a {
   margin-left: 0.625rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .blur  {
   mask-image: linear-gradient(to bottom, black, transparent);
 }
@@ -96,6 +100,7 @@ h1, p, a {
   flex-direction: row;
   gap: 30px;
   margin-bottom: 0;
+  justify-content: center;
 }
 
 .update-card,
@@ -104,17 +109,18 @@ h1, p, a {
   border: 1px solid var(--border);
   border-radius: 1rem;
   box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.2);
-  padding: 1.25rem;
   width: 100%;
-  min-height: 400px;
+  min-height: 50px;
   transition: border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+  padding: 1.25rem;
+  padding-top: 0;
 }
 
 .update-card:hover,
 .guide-card:hover {
-  background: linear-gradient(145deg, var(--card-overlay-hover), var(--surface-hover));
+  background: linear-gradient(0deg, var(--card-overlay-hover), var(--surface-hover));
   border-color: var(--card-hover-border);
-  transform: translateY(-4px);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 480px) {
@@ -136,7 +142,7 @@ h1, p, a {
 
 .update-excerpt,
 .guide-excerpt {
-  height: 270px;
+  height: 25px;
   overflow: hidden;
 }
 
@@ -146,15 +152,16 @@ h1, p, a {
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 300px));
   gap: 20px;
   justify-content: center;
-  max-width: 1580px;
+  max-width: 300px;
   margin: 0 auto;
 }
 
 @media (min-width: 1600px) {
   .update-list,
   .guide-list {
-    grid-template-columns: repeat(5, 300px);
-    justify-content: start;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    margin-top: 30px
   }
 }
 
@@ -165,8 +172,11 @@ h1, p, a {
   border-radius: 1rem;
   box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.2);
   padding: 1.25rem;
-  width: min(700px, 100%);
-  margin: 10px auto 0;
+  width: min(900px, 100%);
+  margin: 30px auto 0;
+  padding-bottom: 60px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .link:link,

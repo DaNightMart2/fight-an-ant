@@ -11,17 +11,9 @@ export default function GuideCard({
 }
 ) {
   return (
-    <article className="guide-card">
+    <article className="guide-card text-center">
       <h3 className="text-center">{title}</h3>
-
-      {body.length > 200 ? (
-        <div>
-          <p className="text-left blur guide-excerpt newline">{body}</p>
-          <Link href={`/${id}`} className="gray-text">{"Leer más..."}</Link>
-        </div>
-      ) : (
-        <p className="text-left">{body}</p>
-      )}
+      <Link href={`/${id}`} className="gray-text text-center">{"Ver"}</Link>
     </article>
   );
 }

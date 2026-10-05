@@ -13,18 +13,9 @@ export default function UpdateCard({
 }
 ) {
   return (
-    <article className="update-card">
+    <article className="update-card text-center">
       <h3 className="text-center">{title}</h3>
-      <h5 className="text-left gray-text">{publish_date}</h5>
-
-      {body.length > 300 ? (
-        <div>
-          <p className="text-left blur update-excerpt newline">{body}</p>
-          <Link href={`/${id}`} className="gray-text">{"Leer más..."}</Link>
-        </div>
-      ) : (
-        <p className="text-left">{body}</p>
-      )}
+      <Link href={`/${id}`} className="gray-text text-center">{"Ver"}</Link>
     </article>
   );
 }

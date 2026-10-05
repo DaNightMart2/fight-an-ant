@@ -152,7 +152,7 @@ h1, p, a {
   grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 300px));
   gap: 20px;
   justify-content: center;
-  max-width: 300px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
